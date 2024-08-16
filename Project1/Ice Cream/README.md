@@ -13,7 +13,6 @@
   - [Ice Cream Scoops](#ice-cream-scoops)
   - [Decorative Biscuit Stick](#decorative-biscuit-stick)
 - [Dynamic Parameters](#dynamic-parameters)
-- [Dynamic Parameters](#dynamic-parameters-1)
 - [Challenges and Solutions](#challenges-and-solutions)
 - [Visual Showcase](#visual-showcase)
 - [Future Improvements](#future-improvements)
@@ -35,10 +34,13 @@ This demo showcases the creation of a procedural ice cream cone using Houdini's 
 ## Implementation Details
 
 ### Waffle Cone
-- **Base Shape:** Created by extruding a grid with a waffle pattern.
-- **Waffle Texture:** Achieved by scattering points on the grid and using `copytopoints` to add small varying-sized particles.
-- **Cone Assembly:** The waffle and particles are combined using VDB to simulate slight irregularities and minor damage.
-- **Final Shape:** The assembled waffle is then shaped into a cone using `bend` and `lineartaper`.
+- **Base Shape:** Created by extruding a grid with `polyextrude` to form the basic waffle structure. <p align=“center”><img src="media/cone_base.png" alt="Cone Base Shape" title="Cone Base Shape" height=250> <img src="media/cone_base_nodes.png" alt="Cone Base Shape Nodes" title="Cone Base Shape Nodes" height=250></p>
+
+- **Damaging Particles:** Achieved by scattering points on the grid, modifying them with `pointwrangle` to add size variation, and using `copytopoints` to add small particles with `mountain` applied to create bumpy surfaces. <p align=“center”><img src="media/cone_particles.png" alt="Cone Damaging Particles" title="Cone Damaging Particles" height=250> <img src="media/cone_particles_nodes.png" alt="Cone Damaging Particles Nodes" title="Cone Damaging Particles Nodes" height=250></p>
+
+- **Waffle Pattern Formation:** The waffle grid and scattered particles are combined using VDB to simulate slight irregularities and minor damage. After merging, a `pointvop` is used to add noise to the `P` attribute, and another `pointvop` is applied to assign two slightly different colors to the waffle structure. <p align=“center”><img src="media/cone_waffle.png" alt="Cone Waffle Pattern" title="Cone Waffle Pattern" height=250> <img src="media/cone_waffle_nodes.png" alt="Cone Waffle Pattern Nodes" title="Cone Waffle Pattern Nodes" height=250></p>
+
+- **Cone Shaping:** The waffle structure is then transformed into a cone shape using `bend` and `lineartaper`. <p align=“center”><img src="media/cone_shaping.png" alt="Cone Shaping" title="Cone Shaping" height=250> <img src="media/cone_shaping_nodes.png" alt="Cone Shaping Nodes" title="Cone Shaping Nodes" height=250></p>
 
 ### Ice Cream Scoops
 - **Base Shape:** A deformed sphere created with `mountain` for an uneven, natural surface. Three variations are made:
@@ -60,10 +62,6 @@ This demo showcases the creation of a procedural ice cream cone using Houdini's 
 
 ### Decorative Biscuit Stick
 - **Base Shape:** Started with a `tube` and used VEX to select alternating columns, assigning different colors to create a striped effect.
-
-## Dynamic Parameters
-- **Cone Radius:** Controls the cone's size, which the scoop size automatically adjusts with.
-- **Number of Scoops:** Controls the number of ice cream scoops, which the scoop positions dynamically adjusts with.
 
 ## Dynamic Parameters
 - **Cone Radius:** Controls the size of the cone, which the scoop size automatically adjusts with.
