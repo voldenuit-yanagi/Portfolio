@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Procedual Ice Cream Cone</h1>
-    <p><img alt="Static Badge" src="https://img.shields.io/badge/Software-Houdini-E2BCAA"> <img alt="Static Badge" src="https://img.shields.io/badge/Techniques-Procedural_Modeling%2C_VDB_Operations%2C_Copy_to_Points%2C_VEX_Scripting-A8C8FF"></p>
+    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Houdini-E4D0C1"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Procedural_Modeling%2C_VDB_Operations%2C_Copy_to_Points%2C_VEX_Scripting-C2D8EE"></p>
     <p>A procedural ice cream cone created in Houdini, featuring a waffle cone, three different types of ice cream scoops, and a decorative biscuit stick. The project also demonstrates a procedural method for placing a varying number of ice cream scoops on the cone in a visually appealing and logical manner.</p>
     <p><img src="media/scoop_number.gif" alt="Scoop Number" title="Scoop Number" height=500> <br> Scoop Number: Controls the number of ice cream scoops, with the scoop positions dynamically adjusting accordingly.</p>
     <p><img src="media/cone_radius.gif" alt="Cone Radius" title="Cone Radius" height=500> <br> Cone Radius: Controls the size of the cone, which the scoop size automatically adjusts with.</p>
