@@ -4,7 +4,7 @@
     <p>An interactive butterfly effect created in Unity, where butterflies are drawn to the approaching player. Upon contact, these butterflies emit an ethereal sound, dissolve into soft glimmer and gradually disappear, creating an immersive and dreamlike experience. The effect is designed to enhance the atmosphere of the scene, providing a captivating interaction within a subtle nighttime environment.</p>
     <p>
         <video height=500 controls="controls" autoplay>
-            <source src="media/test.mp4" type="video/mp4">
+            <source src="https://github.com/voldenuit-yanagi/Portfolio/blob/main/Project1/Interactive%20Butterflies/media/test.mp4" type="video/mp4">
             <p>[Your browser does not support this video format]</p >
         </video>
         <br>
