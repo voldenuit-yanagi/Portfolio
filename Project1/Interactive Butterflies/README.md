@@ -5,7 +5,7 @@
     <p>
         <video height=500 controls="controls" autoplay>
             <source src="media/demo.mp4" type="video/mp4">
-            <p>Your browser does not support this video format</p >
+            <p>[Your browser does not support this video format]</p >
         </video>
         <br>
         xxx
