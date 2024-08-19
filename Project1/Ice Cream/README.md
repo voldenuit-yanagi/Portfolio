@@ -14,8 +14,9 @@
   - [Waffle Cone](#waffle-cone)
   - [Ice Cream Scoops](#ice-cream-scoops)
   - [Decorative Biscuit Stick](#decorative-biscuit-stick)
-  - [Scoop Positioning](#scoop-positioning)
+  - [Scoop Positioning (Main Challenge)](#scoop-positioning-main-challenge)
 - [Future Improvements](#future-improvements)
+- [References](#references)
 
 ## Inspiration
 The inspiration for this procedural ice cream cone project came from my deep love for ice cream. Recently, I came across some adorable ice cream illustrations that sparked my creativity. The vibrant colors, playful designs, and sheer joy that these illustrations evoked made me want to bring a similar concept to life in 3D. As I was just beginning my journey with Houdini, I saw this project as the perfect opportunity to dive into procedural modeling. I aimed to create a system that could not only generate a variety of ice cream cones but also allow for customization in the number of scoops with different flavors and decorations. This project became a fun and challenging way to combine my passion for ice cream with my newfound skills in Houdini, resulting in a delightful and versatile digital creation.
@@ -65,7 +66,7 @@ The inspiration for this procedural ice cream cone project came from my deep lov
 ### Decorative Biscuit Stick
 - **Base Shape:** Started with a `tube` and used VEX to select alternating columns, assigning different colors to create a striped effect. <p><img src="media/stick.png" alt="Stick" title="Stick" height=250> <img src="media/stick_nodes.png" alt="Stick Nodes" title="Stick Nodes" height=250> <img src="media/stick_vex.png" alt="Stick VEX" title="Stick VEX" height=250></p>
 
-### Scoop Positioning
+### Scoop Positioning (Main Challenge)
 The main challenge in this demo was to procedurally place a varying number of ice cream scoops on the cone logically. To address this, I followed these steps:
 <p><img src="media/positioning_nodes.png" alt="Positioning Nodes" title="Positioning Nodes" height=250></p>
 
@@ -77,3 +78,8 @@ The main challenge in this demo was to procedurally place a varying number of ic
 
 ## Future Improvements
 Future enhancements could include adding more variations in the ice cream types, such as different textures and flavors, as well as additional decorations like fruits or syrups. I also plan to improve the procedural controls, making them more intuitive and flexible, allowing for even greater customization options.
+
+## References
+[1] https://www.youtube.com/watch?v=qRju5NOuUeI&t=156s
+
+[2] https://www.youtube.com/watch?v=Pp-TBIcNRsc&list=PLdFfFRXT0K_gQrjJQacL4opLJHdhL4wgQ&pp=iAQB
