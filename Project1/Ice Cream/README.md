@@ -80,6 +80,6 @@ The main challenge in this demo was to procedurally place a varying number of ic
 Future enhancements could include adding more variations in the ice cream types, such as different textures and flavors, as well as additional decorations like fruits or syrups. I also plan to improve the procedural controls, making them more intuitive and flexible, allowing for even greater customization options.
 
 ## References
-[1] https://www.youtube.com/watch?v=qRju5NOuUeI&t=156s
+[1] https://www.youtube.com/watch?v=qRju5NOuUeI
 
 [2] https://www.youtube.com/watch?v=Pp-TBIcNRsc&list=PLdFfFRXT0K_gQrjJQacL4opLJHdhL4wgQ&pp=iAQB
