@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>Interactive Butterflies</h1>
-    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unity-C2D5C7"><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Blender-E9CFCF"><img alt="Static Badge for Photoshop" src="https://img.shields.io/badge/Software-Photoshop-D6CADF"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Particle_System,_Scripting-C2D8EE"></p>
+    <h1>Interactive Butterfly Effect</h1>
+    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unity-C2D5C7"><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Blender-E9CFCF"><img alt="Static Badge for Photoshop" src="https://img.shields.io/badge/Software-Photoshop-D6CADF"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Particle_System%2C_Scripting-C2D8EE"></p>
     <p>An interactive butterfly effect created in Unity, where butterflies gracefully flutter around and will be drawn to the approaching player. Upon contact, these fragile, otherworldly butterflies emit an ethereal sound, dissolve into soft glimmer and gradually disappear, creating an immersive and dreamlike experience. The effect is designed to enhance the atmosphere of the scene, providing a captivating interaction within a subtle nighttime environment.</p>
     [video here]
 </div>
@@ -24,7 +24,7 @@ The inspiration for this project came from the serene and mysterious atmosphere 
 - Ethereal sound effects with randomized pitch and volume variations upon collisions
 - Custom trail textures and UV animations for butterfly wings
 
-<p><img src="media/feature.jpg" alt="Base Setting" title="Base Setting" height=250> <img src="media/demo.gif" alt="Demo" title="Demo" height=400></p>
+<p><img src="media/feature.jpg" alt="Base Setting" title="Base Setting" height=350> <img src="media/demo.gif" alt="Demo" title="Demo" height=350></p>
 
 ## Implementation Details
 
