@@ -27,7 +27,7 @@ The inspiration for this project came from the incredibly realistic liquid in th
 - Real-time screen-space refraction and reflection using reflection probes,  with dynamic refresh controlled by scripting to match liquid movement
 - Parallax effect with textures to simulate floating particles (e.g., gold flakes) within the liquid
 - Deceptive liquid top surface rendering with dynamic normal adjustments and wave simulation
-- Realistic glass bottle material (please refer to my project [Glass Bottle Material]())
+- Realistic glass bottle material (please refer to my project [Glass Bottle Material](https://github.com/voldenuit-yanagi/Portfolio/tree/main/Project1/03%20-%20Glass%20Bottle%20Material))
 
 ## Investigation
 - **Liquid Wobble:** I discovered that the wobble effect could be achieved by scripting the control of shader variables in response to the liquid's movement and rotation speed. This approach influences the rotation of the clipping plane, effectively simulating the tilting and wobbling of the liquid. <p><img src="media/wobble_script.png" alt="Wobble Script" title="Wobble Script" height=300></p>
