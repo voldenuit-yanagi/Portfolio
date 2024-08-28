@@ -14,7 +14,7 @@
 - [Implementation Details](#implementation-details)
   - [xx](#xx)
   - [xxx](#xxx)
-- [Reflection](#reflection)
+- [Future Work](#future-work)
 - [References](#references)
 
 ## Inspiration
@@ -39,7 +39,7 @@ xxx
      - xx <p><img src="media/xx.png" alt="xx" title="xx" height=250></p>
 
 
-## Reflection
+## Future Work
 xx
 
 ## References
