@@ -12,7 +12,7 @@
 - [Individual Sections](#individual-sections)
   - [Water Surface - Realistic water surface behavior, including waves, reflections, and refractions](#water-surface---realistic-water-surface-behavior-including-waves-reflections-and-refractions)
   - [Underwater Effects - The simulation of visual effects and lighting under the water](#underwater-effects---the-simulation-of-visual-effects-and-lighting-under-the-water)
-  - [Water Interaction README - Interactions between the environment/character and the water](#water-interaction-readme---interactions-between-the-environmentcharacter-and-the-water)
+  - [Water Interaction - Interactions between the environment/character and the water](#water-interaction---interactions-between-the-environmentcharacter-and-the-water)
 - [Future Work](#future-work)
 
 ## Inspiration
@@ -31,7 +31,7 @@ xxx
 ### [Underwater Effects](UnderwaterEffects/README.md) - The simulation of visual effects and lighting under the water
 <p><img src="media/xx.gif" alt="xx" title="xx" height=300></p>
 
-### [Water Interaction README](WaterInteraction/README.md) - Interactions between the environment/character and the water
+### [Water Interaction](WaterInteraction/README.md) - Interactions between the environment/character and the water
 <p><img src="media/xx.gif" alt="xx" title="xx" height=300></p>
 
 ## Future Work
