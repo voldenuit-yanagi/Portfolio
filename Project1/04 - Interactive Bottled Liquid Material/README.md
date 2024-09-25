@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Interactive Bottled Liquid Material</h1>
-    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unity-C2D5C7"><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Blender-E9CFCF"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Shader_(Graph)%2C_Screen--Space_Refraction%2C_Parallax_Mapping%2C_Reflection_Probe%2C_Scripting-C2D8EE"></p>
+    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unity-C2D5C7"><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Blender-E9CFCF"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Shader_(Graph%2C_HLSL)%2C_Screen--Space_Refraction%2C_Parallax_Mapping%2C_Reflection_Probe%2C_Scripting_(C%23)-C2D8EE"></p>
     <p>An interactive, deceptive bottled liquid shader with a realistic rendering style, created in Unity URP. The liquid dynamically responds to the motion of the bottle, simulating wobbling and waves, while featuring authentic liquid characteristics such as refraction and reflection. </p>
     <p><img src="media/preview.gif" alt="Preview" title="Preview" height=450></p>
 </div>

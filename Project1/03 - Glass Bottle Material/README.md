@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Glass Bottle Material</h1>
-    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unity-C2D5C7"><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Blender-E9CFCF"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Shader_(Graph)%2C_Screen--Space_Refraction%2C_Translucent_Shadow%2C_Post Processing-C2D8EE"></p>
+    <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unity-C2D5C7"><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Blender-E9CFCF"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Shader_(Graph%2C_HLSL)%2C_Screen--Space_Refraction%2C_Translucent_Shadow%2C_Post Process-C2D8EE"></p>
     <p>A realistic glass bottle material with refraction, reflection, surface details and translucent shadow in Unity's Universal Render Pipeline (URP).</p>
     <p><img src="media/demo.gif" alt="Demo" title="Demo" height=500></p>
 </div>
