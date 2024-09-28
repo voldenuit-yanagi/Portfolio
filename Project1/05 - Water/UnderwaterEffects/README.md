@@ -2,7 +2,12 @@
     <h1>Water - Underwater Effects</h1>
     <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unreal-CDCFEC"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Stencil Buffer%2C_Post_Process%2C_HLSL%2C_Material_Graph%2C_Blueprint-C2D8EE"></p>
     <p>This section covers the visual and technical underwater effects used to simulate the experience of being submerged in water. From distortion, viggnetting, depth fog, blur, to waterline and underwater view of surface, the effects are designed to create an immersive underwater environment in Unreal Engine.</p>
-    <p><img src="media/preview.gif" alt="Preview" title="Preview" height=500></p>
+    <p>
+      <picture>
+          <source srcset="media/preview.webp" type="image/webp">
+          <img src="media/preview.gif" alt="Preview" title="Preview" height=500>
+      </picture>
+    </p>
 </div>
 
 
@@ -53,7 +58,13 @@ Based on the distance from the center of the screen to each pixel, an elliptical
 
 ### Distortion
 For underwater distortion, I used a noise texture to distort the screen-space UV coordinates. This created the illusion of visual distortion of objects caused by the water. I applied a mask to limit the distortion to the center of the screen, ensuring that the effect doesn't appear on the screen's edges, where sampling issues might occur. The distortion strength was controlled by scene depth, with closer objects being less distorted than those farther away.
-<p><img src="media/distortion.gif" alt="Distortion" title="Distortion" width=500> <br> <img src="media/distortion_nodes.png" alt="Distortion Nodes" title="Distortion Nodes" width=900></p>
+<p>
+  <picture>
+    <source srcset="media/distortion.webp" type="image/webp">
+    <img src="media/distortion.gif" alt="Distortion" title="Distortion" width=500>
+  </picture> <br> 
+  <img src="media/distortion_nodes.png" alt="Distortion Nodes" title="Distortion Nodes" width=900>
+</p>
 
 ### Blur
 To simulate the blurriness of underwater objects, I applied a Gaussian blur to the underwater scene, which enhanced the diffusing of light underwater.
@@ -64,7 +75,14 @@ Depth fog was essential for representing underwater visibility. I used scene dep
 <p><img src="media/depthfog1.png" alt="Depth Fog" title="Depth Fog" width=500> <img src="media/depthfog2.png" alt="Depth Fog" title="Depth Fog" width=500> <br> <img src="media/depthfog_nodes1.png" alt="Depth Fog Nodes" title="Depth Fog Nodes" width=400></p>
 
 ### Waterline
-<p><img src="media/waterline.gif" alt="Waterline" title="Waterline" width=500> <img src="media/waterline.png" alt="Waterline" title="Waterline" width=500> <br> <img src="media/waterline_nodes.png" alt="Waterline Nodes" title="Waterline Nodes" width=650></p>
+<p>
+  <picture>
+    <source srcset="media/waterline.webp" type="image/webp">
+    <img src="media/waterline.gif" alt="Waterline" title="Waterline" width=500>
+  </picture> 
+  <img src="media/waterline.png" alt="Waterline" title="Waterline" width=500> <br> 
+  <img src="media/waterline_nodes.png" alt="Waterline Nodes" title="Waterline Nodes" width=650>
+</p>
 
 #### Underwater Mask
 The underwater mask that differentiated between the above-water and underwater regions was created using a stencil buffer. I used two separate meshes in a blueprint actor: one smaller, localized box (stencil value 1) with its top surface aligned with the water and one small plane (stencil value 0) that overlapped (a small offset to avoid Z-fighting) with the box's top surface. By enabling stencil testing, I was able to generate a black-and-white mask, where areas above water are 0 and areas below water are 1. The actor were set to dynamically follow the character’s movement and rotation using a blueprint, ensuring that the mask accurately updated as the player's view changed when entering or exiting the water.

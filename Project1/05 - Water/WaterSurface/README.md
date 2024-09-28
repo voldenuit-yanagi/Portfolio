@@ -2,7 +2,16 @@
     <h1>Water - Water Surface</h1>
     <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unreal-CDCFEC"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Virtual_Heightfield_Mesh%2C_Screen--Space_Reflection_(SSR)%2C_Screen--Space_Refraction%2C_HLSL%2C_Material_Graph-C2D8EE"></p>
     <p>This section covers the implementation of a realistic water surface, including waves, reflections, refraction, specular lighting, and depth handling using various techniques in Unreal Engine.</p>
-    <p><img src="media/preview.gif" alt="Preview" title="Preview" height=500> <img src="media/specular.gif" alt="Preview" title="Preview" height=500></p>
+    <p>
+      <picture>
+          <source srcset="media/preview.webp" type="image/webp">
+          <img src="media/preview.gif" alt="Preview" title="Preview" height=500>
+      </picture>
+      <picture>
+          <source srcset="media/specular.webp" type="image/webp">
+          <img src="media/specular.gif" alt="Preview" title="Preview" height=500>
+      </picture>
+    </p>
 </div>
 
 
@@ -67,7 +76,13 @@ I utilized the Virtual Heightfield Mesh for dynamic water surface displacement. 
 
 ### Refraction
 Instead of using Unreal's built-in refraction system, I simulated refraction by distorting the screen-space UV coordinates using noise. This method, controlled by depth, created a convincing refractive effect that changed based on the water's depth, with stronger refraction in deeper areas.
-<p><img src="media/refraction.gif" alt="Refraction" title="Refraction" width=500> <br> <img src="media/refraction_nodes1.png" alt="Refraction Nodes" title="Refraction Nodes" width=700></p>
+<p>
+  <picture>
+    <source srcset="media/refraction.webp" type="image/webp">
+    <img src="media/refraction.gif" alt="Refraction" title="Refraction" width=500>
+  </picture> <br> 
+  <img src="media/refraction_nodes1.png" alt="Refraction Nodes" title="Refraction Nodes" width=700>
+</p>
 
 ### Depth Fade
 <p><img src="media/depthfade_nodes.png" alt="Depth Fade Nodes" title="Depth Fade Nodes" width=900></p>

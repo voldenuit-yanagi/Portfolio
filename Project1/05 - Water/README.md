@@ -2,7 +2,12 @@
     <h1>Water</h1>
     <p><img alt="Static Badge for Software" src="https://img.shields.io/badge/Software-Unreal-CDCFEC"> <img alt="Static Badge for Techniques" src="https://img.shields.io/badge/Techniques-Screen--Space_Reflection_(SSR)%2C_Stencil Buffer%2C_Post_Process%2C_Decal%2C_Procedural_Generation_with_Noise%2C_Render_Target%2C_Dynamic_Material_Instance%2C_HLSL%2C_Blueprint%2C_C%2B%2B-C2D8EE"></p>
     <p>This project demonstrates a comprehensive approach to simulating water in Unreal Engine, covering surface behavior, underwater effects, and interactions with the environment and characters.</p>
-    <p><img src="media/preview.gif" alt="Preview" title="Preview" height=500></p>
+    <p>
+      <picture>
+          <source srcset="media/preview.webp" type="image/webp">
+          <img src="media/preview.gif" alt="Preview" title="Preview" height=500>
+      </picture>
+    </p>
 </div>
 
 

@@ -23,8 +23,13 @@ The inspiration for this project came from the serene and mysterious atmosphere 
 - Fairytale collision and disappearance mechanics for the butterflies
 - Ethereal sound effects with randomized pitch and volume variations upon collisions
 - Custom trail textures and UV animations for butterfly wings
-
-<p><img src="media/feature.jpg" alt="Base Setting" title="Base Setting" height=350> <img src="media/demo.gif" alt="Demo" title="Demo" height=350></p>
+<p>
+  <img src="media/features.jpg" alt="Features" title="Features" height=350> 
+  <picture>
+    <source srcset="media/demo.webp" type="image/webp">
+    <img src="media/demo.gif" alt="Demo" title="Demo" height=350>
+  </picture>
+</p>
 
 ## Implementation Details
 
