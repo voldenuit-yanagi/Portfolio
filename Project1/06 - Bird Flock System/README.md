@@ -83,6 +83,7 @@ By adding Neighbor Grid 3D module, I could track the proximity of each bird to i
     </picture> 
     <img src="media/debug.png" alt="Debug" title="Debug" width=475>
   </p>
+  
   - A custom Scratch Pad script was developed to dynamically adjust the size, position, and rotation of the cube mesh based on the grid’s dimensions and cell count. This script also calculated the neighbor count for each cell and updated the dynamic material parameters accordingly.
     <p><img src="media/debuggrid_nodes.png" alt="DebugGrid Nodes" title="DebugGrid Nodes" width=1000> <br> <img src="media/debuggrid_code.png" alt="DebugGrid Code" title="DebugGrid Code" width=400></p>
   - Cube Mesh Material: The opacity of the cube mesh was adjusted based on the neighbor count for each cell. Cells with fewer particles were rendered more transparent, allowing for easier identification of sparsely populated areas.
